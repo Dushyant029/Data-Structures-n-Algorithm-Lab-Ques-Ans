@@ -11,7 +11,7 @@ public class DLLTest {
 
         dll.insert(4,30);
         dll.insert(4,25);
-        dll.insert(0,2);
+        dll.insert(0,2); 
         dll.print();
 
         dll.delete(30);
