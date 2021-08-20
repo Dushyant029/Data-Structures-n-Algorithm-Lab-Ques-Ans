@@ -94,5 +94,5 @@ public class AVLDriver {
 		System.out.print("preorder: "); avl.preorder();
 		System.out.print("inorder: "); avl.inorder();	
 		System.out.println("height: " + avl.height());	
-	}
+	} 
 }
