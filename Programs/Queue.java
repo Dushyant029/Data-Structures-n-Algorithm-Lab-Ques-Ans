@@ -21,7 +21,7 @@ public class Queue extends LinkedList {
     public int front() throws RuntimeException {
         if ( isEmpty() )
             throw new RuntimeException("Queue is empty");
-        else
+        else 
             return head.data;
     }
 
