@@ -219,7 +219,7 @@ public class AVLNode {
     	computeBalance(); rc.computeBalance();
     	return rc;
     }
-
+ 
     public int computeBalance() {
         if (isLeaf()) return 0;
         else if (hasOnlyLeft()) return left.height()+1;
