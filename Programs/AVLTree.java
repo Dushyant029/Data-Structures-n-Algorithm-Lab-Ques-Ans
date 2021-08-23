@@ -48,7 +48,7 @@ public class AVLTree {
             return;
         else if (root.data != key)
             root.delete(key);
-        else { // root.data == key
+        else {
         	// Special case implementation - courtesy Deepak Naik
         	AVLNode dummy = new AVLNode(); // Doesn't matter what data it has
             dummy.left = root;
