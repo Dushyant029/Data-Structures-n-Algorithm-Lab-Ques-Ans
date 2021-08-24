@@ -12,7 +12,7 @@ public class BSTNode {
         data = d;
         balanceFactor = 0;
     }
-
+	
     public void insert(int key) {
         // Two cases - decide left or right
         if (key < data)  { // 1. go leftwards
