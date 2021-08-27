@@ -35,7 +35,7 @@ public class Graph {
        }
        System.out.println();
     }
-
+    
     public void printOrder() {
         for (int i=0; i<size; i++)
             System.out.print(node[i].label + " ("
