@@ -99,7 +99,7 @@ public class LinkedList {
             count++;
         }
         return count;
-    }
+    } 
 
     void insertSort(int key) {
         if (head == null) {
