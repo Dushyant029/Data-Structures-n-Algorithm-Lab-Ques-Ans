@@ -18,7 +18,7 @@ public class LinkedList {
     void insert(int pos, int key) {
         Node temp = new Node();  // create the new node
         temp.data = key;
-
+        
         if (pos == 0) { // head is reassigned
             temp.next = head;
             head = temp;
