@@ -23,6 +23,6 @@ public class CircularQueueTest {
         c.dequeue();
         c.dequeue();
         c.dequeue();
-        System.out.println( c.size() ); // prints 0
+        System.out.println( c.size() ); // prints 0 
     }
 }
