@@ -9,7 +9,7 @@ The implementation of AVL Tree builds on BST implementation. The enhancements to
   
 In the code below, except for changes to**delete** method, all other changes are done. 
 
-To keep the BST and AVL implementations separate and distinguish them, the classes have been renamed as **AVLNode**, **AVLTree** and **AVLDriver**. The internal implementations are same except for the above mentioned changes to AVL.
+To keep the BST and AVL implementations separate and distinguish them, the classes have been renamed as **AVLNode**, **AVLTree** and **AVLDriver**. The internal implementations are same except for the above mentioned changes to AVL.  
 
 ``` java
 // AVLNode.java
