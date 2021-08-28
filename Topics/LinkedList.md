@@ -91,7 +91,7 @@ class LinkedList {
             head = temp;
         else {             // case 2
             Node curr = head;
-            while (curr.next != null) // Reach till end
+            while (curr.next != null) // Reach till end 
                 curr = curr.next;            
             curr.next = temp;
         }
