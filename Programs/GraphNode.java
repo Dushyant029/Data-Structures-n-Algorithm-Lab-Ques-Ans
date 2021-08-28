@@ -8,7 +8,7 @@ public class GraphNode {
     ArrayList<GraphNode> adjList;
     boolean visited;
     int preorder;
-    int postorder;
+    int postorder; 
 
     GraphNode(int l) {
         label = l;
