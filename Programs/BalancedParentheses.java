@@ -28,7 +28,7 @@ public class BalancedParentheses {
         }
         if ( s.isEmpty() )
             System.out.println("Balanced");
-        else   // 0 seen with no matching 1
+        else   // 0 seen with no matching 1 
             System.out.println("Not balanced");
     }
 }
