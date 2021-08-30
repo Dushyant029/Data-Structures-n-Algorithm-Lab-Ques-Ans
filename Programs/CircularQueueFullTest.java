@@ -7,7 +7,7 @@ public class CircularQueueFullTest {
         c.enqueue(30); 
         c.enqueue(40); 
         c.enqueue(50); 
-        c.enqueue(60); // program terminates due to exception
+        c.enqueue(60); // program terminates due to exception 
 
         // try .. catch if you don't want program to terminate
     }
